@@ -1,10 +1,10 @@
 package constructor;
 
 public class Company {
-	 String name;
+	String name;
 
-	  // public constructor
-	  public Company() {
-	    name = "Programiz";
-	  }
+	// public constructor
+	public Company() {
+		this.name = "Programiz";
+	}
 }

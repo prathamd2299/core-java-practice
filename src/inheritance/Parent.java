@@ -1,17 +1,7 @@
-package inheritance; //hierarchical inheritance
+package inheritance; //multilevel inheritance
 
 public class Parent {
-	public void car() //creation of car method
-	{
-		System.out.println("Car");
+	public void property() {
+		System.out.println("Home+Farm");
 	}
-
-	public static void main(String[] args) {
-		Parent obj = new Parent();
-		obj.car(); //calling own method
-//		obj.seatingCapacity();
-//		obj.speed();
-//		obj.transmission();
-	}
-
 }

@@ -1,8 +1,9 @@
 package com.facebook.www; //multilevel inheritance
 
+import inheritance.Child;
+
 public class Subchild extends Child {
-	public void saving()
-	{
+	public void saving() {
 		System.out.println("saving");
 	}
 

@@ -3,7 +3,7 @@ package constructor;
 public class DefaultConstructor {
 	int a;
 	boolean b;
-	
+
 	public static void main(String[] args) {
 		// A default constructor is called
 		DefaultConstructor dc = new DefaultConstructor();
@@ -12,12 +12,3 @@ public class DefaultConstructor {
 		System.out.println("b = " + dc.b);
 	}
 }
-
-
-
-
-
-  
-
-
- 

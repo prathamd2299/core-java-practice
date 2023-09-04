@@ -1,17 +1,20 @@
-package inheritance; //hierarchical inheritance
+package inheritance; //multilevel inheritance
 
-public class Maruti extends Parent{
-	public void seatingCapacity() //creation of seatingCapacity method
+public class Maruti extends Car {
+	public void brand() // creation of child method
 	{
-		System.out.println("5 seater");
+		System.out.println("Brand: Maruti");
 	}
-	
+
+	public void speed() // creation of child method
+	{
+		System.out.println("Max: 180kmph");
+	}
+
 	public static void main(String[] args) {
-		Maruti car1 = new Maruti();
-		car1.car(); //calling parent method
-		car1.seatingCapacity(); //calling own method
-//		car1.speed();
-//		car1.transmission();
+		Maruti car1 = new Maruti(); // creation of child object by using child class name
+		car1.vehicleType(); // calling parent property
+		car1.country(); // calling parent property
 	}
 
 }

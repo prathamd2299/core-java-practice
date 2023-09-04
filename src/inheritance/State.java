@@ -1,7 +1,7 @@
 package inheritance; //method overriding concept
 
 public class State extends India {
-	public void city() //overriding method
+	public void city() // overriding method
 	{
 		System.out.println("Mumbai");
 	}

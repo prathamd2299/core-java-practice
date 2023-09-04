@@ -8,7 +8,7 @@ public class Demo1 {
 //		obj.setNum(45);
 		System.out.println(obj.getName());
 //		System.out.println(obj.getNum());
-		
+
 	}
 
 }
